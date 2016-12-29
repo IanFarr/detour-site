@@ -1,0 +1,644 @@
+/*************************
+Mobile Styles
+*************************/
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.0) {
+
+#wrapper {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#mobileHeader {
+	height: 17em;
+	width: 100%;
+	background-image: url("img/mobileRealEstateHead.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#mobileHeader {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#mobileHeader .homeButton {
+	display: none;
+}
+
+.navButtons {
+	text-align: center;
+	background-color: #fff;
+	opacity: .8;
+
+	padding-top: .4em;
+	padding-bottom: .3em;
+}
+
+.navButtons a {
+	text-decoration: none;
+	color: #5E7C88;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
+	opacity: 1;
+
+	padding-right: .2em;
+	padding-left: .2em;
+}
+
+#heading {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #333;
+}
+
+#heading p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+
+	margin-top: 0;
+	margin-bottom: .4em;
+
+	padding: .35em 0 .35em 0;
+}
+
+.title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 3em;
+	color: #5E7C88;
+	text-align: center;
+	margin-bottom: 0.2em;
+	margin-top: 1em;
+}
+
+.subTitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #5E7C88;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+#mobilePhotography {
+	margin: auto;
+	width: 100%;
+}
+
+#mobilePhotography img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#aerial {
+	margin: auto;
+	width: 100%;
+}
+
+#mobileAerial img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#contact {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#video {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+#video iframe {
+	width: 23.65272em;
+	height: 13.18733em;
+}
+
+#contact p {
+	margin-top: 2em;
+	margin-bottom: 1.2em;
+}
+
+#contact a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #5E7C88;
+
+	padding: .4em 2em .5em 2em;
+	border: solid 2px #5E7C88;
+}
+
+#contactUs {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+
+	font-family: 'Lato', sans-serif;
+}
+
+#contactInformation {
+	margin-top: 5em;
+}
+
+#contactUs #reachUs {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #5E7C88;
+	margin-bottom: .6em;
+	padding-bottom: .2em;
+	border-bottom: 1px solid #5E7C88;
+}
+
+#contactUs #contactInfo {
+	text-align: left;
+	font-weight: 300;
+	color: #5E7C88;
+	font-size: 1.4em;
+	margin: .2em 0 .2em 0;
+}
+
+#footer {
+	bottom: 0;
+	width: 100%;
+	position: relative;
+	height: 13.5em;
+	background-color: #333;
+	margin-top: 4em;
+}
+
+#footerContent {
+	margin: auto;
+	width: 70%;
+
+	padding-bottom: 1em;
+	border-bottom: 1px solid #5E7C88;
+
+	text-align: center;
+}
+
+#footer img {
+	height: 51px;
+	width: 51px;
+
+	margin-top: 1.4em;
+	margin-right: .1em;
+}
+
+.last img {
+	margin-right: 0;
+}
+
+#contactButton {
+	margin: 1.4em auto;
+	width: 20%;
+
+	border: 1px solid #5E7C88;
+	text-align: center;
+	padding: .3em 0 .4em 0;
+}
+
+#contactButton a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #5E7C88;
+}
+
+#copyright {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#copyright p {
+	font-family: 'Lato', sans-serif;
+	color: #5E7C88;
+	font-size: .8em;
+}
+
+#header {
+	display: none;
+}
+
+#photography {
+	display: none;
+}
+
+#aerial {
+	display: none;
+}
+
+}
+
+
+/*************************
+Small Window Styles
+*************************/
+
+@media only screen and (min-width: 768px) {
+
+#wrapper {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.golfCourseBanner {
+	background-image: url("img/golfCourseBanner.jpeg");
+}
+
+.realEstateBanner {
+	background-image: url("img/realEstateHead.jpeg");
+}
+
+#header {
+	height: 40em;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.navButtons {
+	text-align: center;
+	background-color: #fff;
+	opacity: .8;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.navButtons a {
+	text-decoration: none;
+	color: #5E7C88;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	opacity: 1;
+
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+.navButtons a:hover {
+	color: #000;
+}
+
+#heading {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #5E7C88;
+	opacity: .5;
+}
+
+#heading p {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-bottom: 2.1em;
+
+	padding: .35em 0 .35em 0;
+}
+
+#photography {
+	margin: auto;
+	width: 80%;
+}
+
+.title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 5em;
+	color: #5E7C88;
+	text-align: center;
+	margin-bottom: 0.2em;
+
+	padding-top: 1em;
+	border-top: solid 1px #5E7C88;
+}
+
+#wrapper .title {
+	margin-top: 2em;
+}
+
+#photography .title {
+	border-top: none;
+	margin-top: 1em;
+	padding-top: 0;
+}
+
+#contactUs .title {
+	border-top: none;
+	margin-top: 1em;
+	padding-top: 0;
+}
+
+.subTitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: #5E7C88;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+#photography img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#photography .picture2 {
+	width: 59.65%;
+	height: auto;
+	margin: .6em 0 .6em 0;
+}
+
+#photography .picture3 {
+	width: 39.664%;
+	float: right;
+	margin: .6em 0 0 0;
+}
+
+#video {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+#video iframe {
+	width: 33.6em;
+	height: 19.04em;
+}
+
+#aerial {
+	margin: auto;
+	width: 80%;
+}
+
+#aerial img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#aerial .picture2 {
+	width: 39.48%;
+	height: auto;
+	margin: .6em 0 .6em 0;
+}
+
+#aerial .picture3 {
+	width: 59.8%;
+	float: right;
+	margin: .6em 0 0 0;
+}
+
+#contactUs {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+
+	font-family: 'Lato', sans-serif;
+}
+
+#contactInformation {
+	width: 45%;
+	margin-top: 5em;
+}
+
+#contactUs #reachUs {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #5E7C88;
+	margin-bottom: .6em;
+	padding-bottom: .2em;
+	border-bottom: 1px solid #5E7C88;
+}
+
+#contactUs .contactInfo {
+	text-align: left;
+	font-weight: 300;
+	color: #5E7C88;
+	font-size: 1.4em;
+	margin: .2em 0 .2em 0;
+}
+
+#contact {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+#contact p {
+	margin-top: 2em;
+}
+
+#contact a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 2em;
+	color: #5E7C88;
+
+	padding: .4em 2em .5em 2em;
+	border: solid 2px #5E7C88;
+}
+
+#contact a:hover {
+	color: #000;
+	border-color: #000;
+}
+
+#footer {
+	margin-top: 8em;
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
+	bottom: 0;
+	width: 100%;
+	position: relative;
+	height: 13.5em;
+}
+
+#footerContent {
+	margin: auto;
+	width: 70%;
+
+	padding-bottom: 1em;
+	border-top: 1px solid #5E7C88;
+
+	text-align: center;
+}
+
+#footer img {
+	height: 51px;
+	width: 51px;
+
+	margin-top: 1.4em;
+	margin-right: .1em;
+}
+
+.last img {
+	margin-right: 0;
+}
+
+#contactButton {
+	margin: 1.4em auto;
+	width: 10%;
+
+	border: 1px solid #5E7C88;
+	text-align: center;
+	padding: .3em 0 .4em 0;
+}
+
+#contactButton a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #5E7C88;
+}
+
+#copyright {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#copyright p {
+	font-family: 'Lato', sans-serif;
+	color: #5E7C88;
+	font-size: .8em;
+}
+
+#mobileHeader {
+	display: none;
+}
+
+#mobilePhotography {
+	display: none;
+}
+
+#mobileAerial {
+	display: none;
+}
+
+}
+
+
+
+/*************************
+Medium Window Styles
+*************************/
+
+@media only screen and (min-width: 1000px) {
+
+.navButtons a {
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+#video iframe {
+	width: 48em;
+	height: 27.2em;
+}
+
+}
+
+/*************************
+Large Window Styles
+*************************/
+
+@media only screen and (min-width: 1600px) {
+
+#photography {
+	width: 60%;
+}
+
+#video {
+	width: 60%;
+}
+
+#video iframe {
+	width: 60em;
+	height: 34em;
+}
+
+#aerial {
+	width: 60%;
+}
+
+#contactUs {
+	width: 60%;
+}
+
+#contact {
+	width: 60%;
+}
+
+#contactInformation {
+	width: 25%;
+	margin-top: 5em;
+}
+
+#contactButton {
+	width: 5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
