@@ -45,8 +45,8 @@ Mobile Styles
 	font-size: 1.3em;
 	opacity: 1;
 
-	padding-right: .2em;
-	padding-left: .2em;
+	padding-right: .5em;
+	padding-left: .5em;
 }
 
 #heading {
@@ -262,6 +262,10 @@ Small Window Styles
 
 .realEstateBanner {
 	background-image: url("img/realEstateHead.jpeg");
+}
+
+.contactBanner {
+	background-image: url("img/interior4.jpeg");
 }
 
 #header {
@@ -603,42 +607,3 @@ Large Window Styles
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
