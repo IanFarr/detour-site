@@ -9,6 +9,8 @@
       <link rel="stylesheet" type="text/css" href="normalize.css" />
       <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
       <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
       <title>Detour Media</title>
   </head>
 
@@ -16,40 +18,51 @@
     <div id="wrapper">
 
       <div id="header">
+
         <div id="navButtons">
-          <a href="index.html">home.</a>
+          <a class="active" href="index.html">home.</a>
           <a href="about.html">about.</a>
           <a href="contact.html">contact.</a>
         </div>
-        <div>
-          <img id="logo" src="img/detourLogoSmall.png" alt="Detour Media" />
-          <img class="line" src="img/lineSmall.png" alt="line" />
+
+        <div id="videoContainer">
+          <video autoplay = "false" loop = "loop" volume = "0" >
+            <source src="video/videoTest.mp4" type="video/mp4" />
+          </video>
         </div>
+
+        <div>
+          <img id="logoSmall" src="img/detourLogoSmall.png" alt="Detour Media" />
+          <img class="lineSmall" src="img/lineSmall.png" alt="line" />
+          <img class="lineLarge" src="img/lineLarge.png" alt="line" />
+        </div>
+
       </div>
 
       <div class="contentBox" id="firstBox">
-        <p class="title">Estate</p>
+        <p class="title">estate</p>
         <p class="subTitle">sell or rent in style<br />with real estate videography</p>
         <iframe src="https://player.vimeo.com/video/224970716" frameborder="0"></iframe>
       </div>
 
       <div class="contentBox" id="grey">
-        <p class="title">Event</p>
+        <p class="title">event</p>
         <p class="subTitle">improve your social media game<br />with event videography</p>
         <iframe src="https://player.vimeo.com/video/224995534" frameborder="0"></iframe>
       </div>
 
       <div class="contentBox">
-        <p class="title">Commercial</p>
+        <p class="title">commercial</p>
         <p class="subTitle">show the world with<br />custom video for your business</p>
-        <iframe src="https://player.vimeo.com/video/224995534" frameborder="0"></iframe>
+        <iframe src="https://player.vimeo.com/video/232759084" frameborder="0"></iframe>
       </div>
 
     </div>
 
     <div id="footer">
       <div>
-        <img class="line" src="img/lineSmall.png" alt="line" />
+        <img class="lineSmall" src="img/lineSmall.png" alt="line" />
+        <img class="lineLarge" src="img/lineLarge.png" alt="line" />
       </div>
       <div id="footerContent">
         <a class="first" href="https://twitter.com/DetourMedia"><img src="img/twitter.png" alt="twitter" /></a>
