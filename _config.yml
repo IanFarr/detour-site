@@ -1,0 +1,17 @@
+plugins:
+  - jekyll-seo-tag
+
+name: Detour Media
+
+description: Detour Media makes custom promotional video for business websites and social media.
+
+url: detour.media
+
+author: Detour Media
+
+social:
+  name: Detour Media
+  links:
+    - https://twitter.com/DetourMedia
+    - https://www.instagram.com/detourmediaco/
+    - https://vimeo.com/user51264805
