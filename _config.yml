@@ -6,5 +6,5 @@ permalink: pretty
 gems:
   - jekyll-seo-tag
 
-  plugins:
+plugins:
   - jekyll-seo-tag
