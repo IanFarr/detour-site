@@ -15,6 +15,17 @@
   </head>
 
   <body>
+    <div class="meta" itemscope itemtype="http://schema.org/LocalBusiness">
+      <h1><span itemprop="name">Detour Media</span></h1>
+      <span itemprop="description">Custom video to promote your business online or through social media.</span>
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="addressLocality">Cambridge</span>
+        <span itemprop="addressRegion">ON</span>
+        <span itemprop="addressCountry">CANADA</span>
+        <span itemprop="postalCode">N1P 0A1</span>
+      </div>
+    </div>
+
     <div id="wrapper">
 
       <div id="header">
@@ -32,7 +43,7 @@
         </div>
 
         <div>
-          <img id="logoSmall" src="img/detourLogoSmall.png" alt="Detour Media" />
+          <img itemprop ="logo" id="logoSmall" src="img/detourLogoSmall.png" alt="Detour Media" />
           <img class="lineSmall" src="img/lineSmall.png" alt="line" />
           <img class="lineLarge" src="img/lineLarge.png" alt="line" />
         </div>
@@ -40,21 +51,21 @@
       </div>
 
       <div class="contentBox" id="firstBox">
-        <p class="title">estate</p>
-        <p class="subTitle">sell or rent in style<br />with real estate videography</p>
-        <iframe src="https://player.vimeo.com/video/224970716" frameborder="0"></iframe>
+        <h1 class="title">estate</h1>
+        <p itemprop="description" class="subTitle">sell or rent in style<br />with real estate videography</p>
+        <iframe itemprop="video" itemscope itemtype="http://schema.org/VideoObject" src="https://player.vimeo.com/video/224970716" frameborder="0"></iframe>
       </div>
 
       <div class="contentBox" id="grey">
-        <p class="title">event</p>
-        <p class="subTitle">improve your social media game<br />with event videography</p>
-        <iframe src="https://player.vimeo.com/video/224995534" frameborder="0"></iframe>
+        <h1 class="title">event</h1>
+        <p itemprop="description" class="subTitle">improve your social media game<br />with event videography</p>
+        <iframe itemprop="video" itemscope itemtype="http://schema.org/VideoObject" src="https://player.vimeo.com/video/224995534" frameborder="0"></iframe>
       </div>
 
       <div class="contentBox">
-        <p class="title">commercial</p>
-        <p class="subTitle">show the world with<br />custom video for your business</p>
-        <iframe src="https://player.vimeo.com/video/232759084" frameborder="0"></iframe>
+        <h1 class="title">commercial</h1>
+        <p itemprop="description" class="subTitle">show the world with<br />custom video for your business</p>
+        <iframe itemprop="video" itemscope itemtype="http://schema.org/VideoObject" src="https://player.vimeo.com/video/232759084" frameborder="0"></iframe>
       </div>
 
     </div>

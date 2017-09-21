@@ -7,7 +7,15 @@ Mobile Styles
     font-family: 'Comfortaa', cursive;
   }
 
+  .meta {
+    display: none;
+  }
+
   p {
+    text-align: center;
+  }
+
+  h1 {
     text-align: center;
   }
 
